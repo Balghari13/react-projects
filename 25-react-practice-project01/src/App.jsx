@@ -1,17 +1,20 @@
 import { useState } from "react";
 
 import "./App.css";
-import Accordion from "./components/Accordion/Accordion";
-import { StarRating } from "./components/star-rating/StarRating";
-import RandomColorGenerator from "./components/Random-color/RandomColorGenerator";
+import Accordion from "./components/01.Accordion/Accordion";
+import { StarRating } from "./components/03.star-rating/StarRating";
+import RandomColorGenerator from "./components/02.Random-color/RandomColorGenerator";
+import { ImgSlider } from "./components/04.Img-slider/ImgSlider";
 
 function App() {
-  return <>
-  {/* <Accordion/> */}
-  {/* <RandomColorGenerator/> */}
-  <StarRating/>
-  
-  </>
+  return (
+    <>
+      {/* <Accordion/> */}
+      {/* <RandomColorGenerator/> */}
+      {/* <StarRating/> */}
+      <ImgSlider />
+    </>
+  );
 }
 
 export default App;

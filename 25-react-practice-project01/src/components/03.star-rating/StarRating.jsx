@@ -44,7 +44,7 @@ export const StarRating = () => {
       {[...Array(stars)].map((_, index) => {
         index += 1;
         return (
-          <FaStar
+          <FaStar key={index}
             className={index <= (hover || rating )? "active" : "inactive"}
             onClick={() => {
               if (index === 1 && rating === 1) {
