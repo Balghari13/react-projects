@@ -1,0 +1,28 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.button-container {
+  text-align: center;
+  padding: 40px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
