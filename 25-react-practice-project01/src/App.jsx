@@ -10,6 +10,7 @@ import TreeView from "./components/06.treeview/TreeView";
 import menus from "./components/06.treeview/data";
 import QRcode from "./components/07. qr code/QRcode";
 import QRcodeComponent from "./components/07. qr code/QRcode";
+import ToggleDarkMode from "./components/08.dark-mode/ToggleDarkMode";
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       {/* <ImgSlider /> */}
       {/* <LoadMoreData/> */}
       {/* <TreeView menus={menus}/> */}
-    <QRcodeComponent/>
+    {/* <QRcodeComponent/> */}
+    <ToggleDarkMode/>
     </>
   );
 }
