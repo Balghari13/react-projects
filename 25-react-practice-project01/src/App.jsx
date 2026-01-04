@@ -6,6 +6,8 @@ import { StarRating } from "./components/03.star-rating/StarRating";
 import RandomColorGenerator from "./components/02.Random-color/RandomColorGenerator";
 import { ImgSlider } from "./components/04.Img-slider/ImgSlider";
 import LoadMoreData from "./components/05.Load-more-data/LoadMoreData";
+import TreeView from "./components/treeview/TreeView";
+import menus from "./components/treeview/data";
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       {/* <RandomColorGenerator/> */}
       {/* <StarRating/> */}
       {/* <ImgSlider /> */}
-      <LoadMoreData/>
+      {/* <LoadMoreData/> */}
+      <TreeView menus={menus}/>
     </>
   );
 }
