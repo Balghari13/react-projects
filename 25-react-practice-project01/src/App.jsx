@@ -14,6 +14,7 @@ import ToggleDarkMode from "./components/08.dark-mode/ToggleDarkMode";
 import ScrollIndicatorPage from "./components/09.scroll indicator/ScrollIndicatorPage";
 import Tabs from "./components/10.tabs/Tabs";
 import TabTests from "./components/10.tabs/TabTests";
+import Modeltext from "./components/11.model/Modeltext";
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
     {/* <QRcodeComponent/> */}
     {/* <ToggleDarkMode/> */}
     {/* <ScrollIndicatorPage url={"https://dummyjson.com/products?limit=100"}/> */}
-    <TabTests/>
+    {/* <TabTests/> */}
+    <Modeltext/>
     </>
   );
 }
