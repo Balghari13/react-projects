@@ -12,6 +12,8 @@ import QRcode from "./components/07. qr code/QRcode";
 import QRcodeComponent from "./components/07. qr code/QRcode";
 import ToggleDarkMode from "./components/08.dark-mode/ToggleDarkMode";
 import ScrollIndicatorPage from "./components/09.scroll indicator/ScrollIndicatorPage";
+import Tabs from "./components/10.tabs/Tabs";
+import TabTests from "./components/10.tabs/TabTests";
 
 
 function App() {
@@ -25,7 +27,8 @@ function App() {
       {/* <TreeView menus={menus}/> */}
     {/* <QRcodeComponent/> */}
     {/* <ToggleDarkMode/> */}
-    <ScrollIndicatorPage url={"https://dummyjson.com/products?limit=100"}/>
+    {/* <ScrollIndicatorPage url={"https://dummyjson.com/products?limit=100"}/> */}
+    <TabTests/>
     </>
   );
 }
