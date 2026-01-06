@@ -11,6 +11,7 @@ import menus from "./components/06.treeview/data";
 import QRcode from "./components/07. qr code/QRcode";
 import QRcodeComponent from "./components/07. qr code/QRcode";
 import ToggleDarkMode from "./components/08.dark-mode/ToggleDarkMode";
+import ScrollIndicatorPage from "./components/09.scroll indicator/ScrollIndicatorPage";
 
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
       {/* <LoadMoreData/> */}
       {/* <TreeView menus={menus}/> */}
     {/* <QRcodeComponent/> */}
-    <ToggleDarkMode/>
+    {/* <ToggleDarkMode/> */}
+    <ScrollIndicatorPage url={"https://dummyjson.com/products?limit=100"}/>
     </>
   );
 }

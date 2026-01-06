@@ -1,0 +1,11 @@
+.progress-tracking{
+  position: fixed;
+  width: 100%;
+  background-color: green;
+  color: #fff;
+}
+.current-progress{
+ height: 5px;
+  color: #fe0606;
+  background-color: #fb0606;
+}
