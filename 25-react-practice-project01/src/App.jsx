@@ -16,6 +16,7 @@ import Tabs from "./components/10.tabs/Tabs";
 import TabTests from "./components/10.tabs/TabTests";
 import Modeltext from "./components/11.model/Modeltext";
 import GithubProfileDetails from "./components/12.Github-profile/GithubProfileDetails";
+import SearchAutoComplete from "./components/13-search-autocomplete/SearchAutoComplete";
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
     {/* <ScrollIndicatorPage url={"https://dummyjson.com/products?limit=100"}/> */}
     {/* <TabTests/> */}
     {/* <Modeltext/> */}
-    <GithubProfileDetails/>
+    {/* <GithubProfileDetails/> */}
+    <SearchAutoComplete/>
     </>
   );
 }
