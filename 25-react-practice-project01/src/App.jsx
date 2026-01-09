@@ -15,6 +15,7 @@ import ScrollIndicatorPage from "./components/09.scroll indicator/ScrollIndicato
 import Tabs from "./components/10.tabs/Tabs";
 import TabTests from "./components/10.tabs/TabTests";
 import Modeltext from "./components/11.model/Modeltext";
+import GithubProfileDetails from "./components/12.Github-profile/GithubProfileDetails";
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
     {/* <ToggleDarkMode/> */}
     {/* <ScrollIndicatorPage url={"https://dummyjson.com/products?limit=100"}/> */}
     {/* <TabTests/> */}
-    <Modeltext/>
+    {/* <Modeltext/> */}
+    <GithubProfileDetails/>
     </>
   );
 }
