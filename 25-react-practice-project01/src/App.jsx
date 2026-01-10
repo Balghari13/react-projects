@@ -18,6 +18,10 @@ import Modeltext from "./components/11.model/Modeltext";
 import GithubProfileDetails from "./components/12.Github-profile/GithubProfileDetails";
 import SearchAutoComplete from "./components/13-search-autocomplete/SearchAutoComplete";
 import TicTacToeGame from "./components/14. tictactoe/TicTacToeGame";
+import FeatureFlagsGlobalContext from "./components/15.feature flag/context/indexContext";
+import FeatureFlagsComponent from "./components/15.feature flag/FeatureFlagsComponent";
+
+
 
 
 function App() {
@@ -36,7 +40,13 @@ function App() {
     {/* <Modeltext/> */}
     {/* <GithubProfileDetails/> */}
     {/* <SearchAutoComplete/> */}
-    <TicTacToeGame/>
+    {/* <TicTacToeGame/> */}
+
+   <FeatureFlagsGlobalContext>
+    <FeatureFlagsComponent/>
+   </FeatureFlagsGlobalContext>
+
+
     </>
   );
 }
