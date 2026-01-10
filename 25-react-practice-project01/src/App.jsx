@@ -17,6 +17,7 @@ import TabTests from "./components/10.tabs/TabTests";
 import Modeltext from "./components/11.model/Modeltext";
 import GithubProfileDetails from "./components/12.Github-profile/GithubProfileDetails";
 import SearchAutoComplete from "./components/13-search-autocomplete/SearchAutoComplete";
+import TicTacToeGame from "./components/14. tictactoe/TicTacToeGame";
 
 
 function App() {
@@ -34,7 +35,8 @@ function App() {
     {/* <TabTests/> */}
     {/* <Modeltext/> */}
     {/* <GithubProfileDetails/> */}
-    <SearchAutoComplete/>
+    {/* <SearchAutoComplete/> */}
+    <TicTacToeGame/>
     </>
   );
 }
