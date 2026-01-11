@@ -20,6 +20,7 @@ import SearchAutoComplete from "./components/13-search-autocomplete/SearchAutoCo
 import TicTacToeGame from "./components/14. tictactoe/TicTacToeGame";
 import FeatureFlagsGlobalContext from "./components/15.feature flag/context/indexContext";
 import FeatureFlagsComponent from "./components/15.feature flag/FeatureFlagsComponent";
+import FetchComponent from "./components/16.custom-usefetch/FetchComponent";
 
 
 
@@ -41,11 +42,11 @@ function App() {
     {/* <GithubProfileDetails/> */}
     {/* <SearchAutoComplete/> */}
     {/* <TicTacToeGame/> */}
-
+{/* 
    <FeatureFlagsGlobalContext>
     <FeatureFlagsComponent/>
-   </FeatureFlagsGlobalContext>
-
+   </FeatureFlagsGlobalContext> */}
+<FetchComponent/>
 
     </>
   );
