@@ -21,6 +21,7 @@ import TicTacToeGame from "./components/14. tictactoe/TicTacToeGame";
 import FeatureFlagsGlobalContext from "./components/15.feature flag/context/indexContext";
 import FeatureFlagsComponent from "./components/15.feature flag/FeatureFlagsComponent";
 import FetchComponent from "./components/16.custom-usefetch/FetchComponent";
+import CustomOutsideComponent from "./components/17.customOustideClick hook/CustomOutsideComponent";
 
 
 
@@ -46,7 +47,8 @@ function App() {
    <FeatureFlagsGlobalContext>
     <FeatureFlagsComponent/>
    </FeatureFlagsGlobalContext> */}
-<FetchComponent/>
+{/* <FetchComponent/> */}
+<CustomOutsideComponent/>
 
     </>
   );
