@@ -22,6 +22,7 @@ import FeatureFlagsGlobalContext from "./components/15.feature flag/context/inde
 import FeatureFlagsComponent from "./components/15.feature flag/FeatureFlagsComponent";
 import FetchComponent from "./components/16.custom-usefetch/FetchComponent";
 import CustomOutsideComponent from "./components/17.customOustideClick hook/CustomOutsideComponent";
+import ScreenResizer from "./components/18. useScreen resizer/ScreenResizer";
 
 
 
@@ -48,8 +49,8 @@ function App() {
     <FeatureFlagsComponent/>
    </FeatureFlagsGlobalContext> */}
 {/* <FetchComponent/> */}
-<CustomOutsideComponent/>
-
+{/* <CustomOutsideComponent/> */}
+<ScreenResizer/>
     </>
   );
 }
