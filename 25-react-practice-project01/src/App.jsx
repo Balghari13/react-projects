@@ -23,6 +23,7 @@ import FeatureFlagsComponent from "./components/15.feature flag/FeatureFlagsComp
 import FetchComponent from "./components/16.custom-usefetch/FetchComponent";
 import CustomOutsideComponent from "./components/17.customOustideClick hook/CustomOutsideComponent";
 import ScreenResizer from "./components/18. useScreen resizer/ScreenResizer";
+import ScrollTopBottom from "./components/19.scrollTopBottom/ScrollTopBottom";
 
 
 
@@ -50,7 +51,8 @@ function App() {
    </FeatureFlagsGlobalContext> */}
 {/* <FetchComponent/> */}
 {/* <CustomOutsideComponent/> */}
-<ScreenResizer/>
+{/* <ScreenResizer/> */}
+<ScrollTopBottom/>
     </>
   );
 }
