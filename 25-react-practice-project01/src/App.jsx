@@ -24,6 +24,8 @@ import FetchComponent from "./components/16.custom-usefetch/FetchComponent";
 import CustomOutsideComponent from "./components/17.customOustideClick hook/CustomOutsideComponent";
 import ScreenResizer from "./components/18. useScreen resizer/ScreenResizer";
 import ScrollTopBottom from "./components/19.scrollTopBottom/ScrollTopBottom";
+import ScrollToSection from "./components/19.scrollTopBottom/ScrollToSection";
+import Weather from "./components/20.weather-app/Weather";
 
 
 
@@ -52,7 +54,10 @@ function App() {
 {/* <FetchComponent/> */}
 {/* <CustomOutsideComponent/> */}
 {/* <ScreenResizer/> */}
-<ScrollTopBottom/>
+{/* <ScrollTopBottom/> */}
+{/* <ScrollToSection/> */}
+
+<Weather/>
     </>
   );
 }
