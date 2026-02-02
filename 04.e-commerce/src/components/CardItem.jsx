@@ -16,7 +16,7 @@ const CardItem = ({ item }) => {
    
       <div className="flex items-center justify-between sm:justify-end w-full sm:w-2/5 sm:mt-0 space-x-4">
 
-       <div className="flex items-center border border-gray-700 rounded-full overflow-hidden shadow-lg">
+       <div className="flex items-center border border-gray-700 rounded-full  shadow-lg">
 
          <button className="p-2 text-gray-400 bg-gray-800 hover:bg-gray-700 transition duration-150 w-8 h-8 flex items-center justify-center" onClick={() => addToCart(item)}>+</button>
         <span className="px-3 text-base font-bold ">{item.quantity}</span>
